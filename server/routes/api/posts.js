@@ -27,7 +27,7 @@ router.delete('/:id', async (req, res) => {
 })
 
 async function loadPostsCollection() {
-    const client = await mongodb.MongoClient.connect('mongodb://localhost:27017/vue_express',
+    const client = await mongodb.MongoClient.connect('mongodb+srv://odaly:SimplePassword@vue-express-aycun.mongodb.net/test?retryWrites=true&w=majority',
     {
         useNewUrlParser: true
     });
