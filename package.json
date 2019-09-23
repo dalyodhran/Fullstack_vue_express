@@ -4,8 +4,7 @@
   "description": "Full stack vue and express app",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "dev": "nodemon server/index.js"
+    "test": "mocha"
   },
   "author": "Odhran Daly",
   "license": "ISC",
@@ -16,6 +15,8 @@
     "mongodb": "^3.3.0-beta2"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
     "nodemon": "^1.19.1"
   }
 }
